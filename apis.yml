@@ -1,9 +1,25 @@
 aid: habitto
 name: Habitto
-description: Habitto is a company surfaced as a portfolio company of anthemis, qed-investors and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Habitto is a Tokyo-based fintech company building a mobile financial wellness
+  app for the Japanese market under the banner お金の新習慣 ("new money habits"). The app pairs a
+  high-yield savings account and a cashback debit card with access to human financial advisors
+  who help users save, grow, and protect their money. Habitto is backed by the fintech-focused
+  venture investors Anthemis and QED Investors. This API Evangelist profile has been enriched
+  with company identity, website link properties, and a domain-security probe; Habitto is a
+  consumer-facing product and publishes no public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/habitto/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.habitto.com/images/home/footer-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Banking
+- Savings Account
+- Debit Card
+- Financial Advisory
+- Personal Finance
+- Mobile Banking
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.habitto.com/
+- type: About
+  url: https://www.habitto.com/about/
+- type: Blog
+  url: https://www.habitto.com/blogs/
+- type: Newsroom
+  url: https://www.habitto.com/newsroom/
+- type: Support
+  url: https://www.habitto.com/support/
+- type: TermsOfService
+  url: https://www.habitto.com/policies/
+- type: PrivacyPolicy
+  url: https://www.habitto.com/policies/
+- type: DomainSecurity
+  url: security/habitto-domain-security.yml
+- type: LinkedIn
+  url: https://jp.linkedin.com/company/habittojp
+- type: X
+  url: https://x.com/habitto_jp
+- type: Instagram
+  url: https://www.instagram.com/habitto_japan/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
