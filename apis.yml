@@ -8,6 +8,17 @@ description: Habitto is a Tokyo-based fintech company building a mobile financia
   with company identity, website link properties, and a domain-security probe; Habitto is a
   consumer-facing product and publishes no public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/habitto/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
