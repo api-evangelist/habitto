@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/habitto/integrations
+- https://n8n.io/integrations/habitto/
+- https://composio.dev/toolkits/habitto
+- https://monid.ai/tools/habitto
+checked:
+- https://composio.dev/toolkits/habitto
+- https://monid.ai/tools/habitto
+- https://n8n.io/integrations/habitto/
+- https://zapier.com/apps/habitto/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
